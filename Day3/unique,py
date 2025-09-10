@@ -1,0 +1,14 @@
+def unique(list1):
+    print("Unique elements of list are: ")
+    for j in set(list1):
+        print(f"{j}")
+         
+  
+
+
+list1=[]
+n=int(input("Enter size of list: "))
+for i in range(n):
+    list1.append(int(input(f"Enter {i}th element: "))) 
+
+unique(list1)
